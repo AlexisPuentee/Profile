@@ -1,0 +1,160 @@
+    @import url("https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&family=Fredoka+One&display=swap");
+    @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-family: "Baloo Chettan 2", cursive;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Righteous', cursive;
+    }
+    
+    .container__all {
+        margin-left: 30vw;
+        background-color: #b2a4ff4d;
+        padding-left: 10px;
+        height: max-content;
+    }
+    /*********************aqui es para mi nombre la imagen y la presentacion ******************************************************/
+    
+    .container__encabezado {
+        height: 100vh;
+        box-sizing: border-box;
+        background-color: rgba(46, 51, 122, 0.829);
+        width: 30vw;
+        position: fixed;
+        z-index: 10000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 0px 20px rgb(73, 0, 116);
+    }
+    
+    .encabezado__nombre {
+        text-align: center;
+        text-shadow: 0px 0px 15px rgb(28, 50, 173);
+    }
+    
+    .encabezado__nombre h2 {
+        color: #e1e8ed;
+        font-size: 5vw;
+        text-shadow: 0px 0px 15px rgb(28, 50, 173);
+    }
+    
+    .encabezado__nombre p {
+        color: #aab8c2;
+        text-shadow: 0px 0px 15px rgb(28, 50, 173);
+    }
+    
+    .encabezado__nombre h3 {
+        color: #f5f8fa;
+        font-size: 6vw;
+        margin-top: -15%;
+    }
+    
+    .titulo__img img {
+        max-block-size: 20vw;
+        display: flex;
+        margin: auto;
+        border-radius: 50%;
+        box-shadow: 0px 0px 15px rgb(28, 50, 173);
+    }
+    
+    .encabezado__nombre a {
+        padding: 4px 10px;
+        border-radius: 20px;
+        transition: all 1s;
+        font-size: 2vw;
+        background-color: #7754a0;
+        color: #ffffff;
+        text-decoration: none;
+        box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.54);
+        box-shadow: 0px 0px 35px rgb(38, 28, 173);
+    }
+    
+    .encabezado__nombre a:hover {
+        background-color: rgb(38, 28, 173);
+        color: #ffffff;
+        padding: 10px 20px;
+        box-shadow: 1px 1px 15px rgb(50, 0, 78);
+    }
+    
+    @media screen and (max-width: 768px) {
+        .encabezado__nombre a {
+            font-size: 3.5vw;
+        }
+    }
+    /********Aqui empiezan mi nivel de skilss******************/
+    
+    .titulos__indicadores h3 {
+        font-size: 5vw;
+        color: rgb(96, 28, 173);
+    }
+    
+    .titulos__indicadores .color {
+        background-color: rgb(38, 28, 173);
+        height: 2px;
+        width: 50%;
+        margin-top: -10PX;
+    }
+    
+    .container__nivel__skills {
+        padding: 5%;
+        margin-bottom: 20px;
+        height: 70vh;
+    }
+    
+    .etiquetas h4 {
+        font-size: 150%;
+        color: #222426;
+    }
+    
+    @media screen and (max-width: 768px) {
+        .titulos__indicadores h3 {
+            font-size: 6vw;
+        }
+        .etiquetas h4 {
+            font-size: 100%;
+            margin-top: 5px;
+            margin-bottom: -1px;
+        }
+        .container__nivel__skills {
+            height: min-content;
+        }
+    }
+    /**************AQUI EMPIEZAN LOS LENGUAJES QUE MANEJO*********************/
+    
+    .container__lenguajes {
+        padding: 5%;
+        margin-bottom: 20px;
+    }
+    
+    .progress-bar {
+        background-color: #35465c !important;
+    }
+    
+    .color-barra-2 {
+        background-color: #003a70 !important;
+    }
+    /**************educacion**************************/
+    
+    .container__education {
+        padding: 5%;
+    }
+    
+    .container__education p {
+        text-align: justify;
+        color: #3b5a6f;
+    }
+    
+    .container__pasatiempos {
+        padding: 5%;
+    }
