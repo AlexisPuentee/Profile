@@ -42,3 +42,10 @@ function mostrarscrolL() {
 }
 
 window.addEventListener("scroll", mostrarscrolL);
+
+do {
+    var nombre = prompt("¡HELLOW WORLD! ingresa tu nombre: ", "Nombre");
+} while (nombre == "Nombre");
+
+var nom = document.querySelector(".nombres");
+nom.innerHTML = "Bienvenido " + nombre;
