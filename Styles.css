@@ -234,21 +234,21 @@
             }
             
             .works:nth-child(2) {
-                background-image: url(img/fondo\ de\ programacion.jpg);
-                color: white;
+               color: white;
                 max-width: 30rem;
                 margin: 5% auto 0 auto;
                 padding: 3%;
                 border-radius: 10px;
+                background-color: rgb(28, 23, 49);
             }
             
             .works:nth-child(3) {
-                background-image: url(img/fondo\ de\ programacion.jpg);
-                color: white;
-                margin: 5% auto 5% auto;
+              color: white;
                 max-width: 30rem;
+                margin: 5% auto 0 auto;
                 padding: 3%;
                 border-radius: 10px;
+                background-color: rgb(28, 23, 49);
             }
             /*__________________FOOTER__________________________*/
             
