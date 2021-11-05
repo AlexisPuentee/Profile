@@ -195,15 +195,7 @@
             background-color: rgba(0, 0, 0, 0.178);
         }
         
-        .works:first-child {
-            /*background-image: url(img/fondo\ de\ programacion.jpg);*/
-            color: white;
-            max-width: 30rem;
-            margin: 5% auto 0 auto;
-            padding: 3%;
-            border-radius: 10px;
-            background-color: rgb(28, 23, 49);
-        }
+       
         
         .works__letters {
             opacity: 0;
@@ -232,12 +224,20 @@
         .works__letters:hover {
             opacity: 1;
         }
-        
+         .works:first-child {
+            /*background-image: url(img/fondo\ de\ programacion.jpg);*/
+           color: white;
+            margin: 5% auto 5% auto;
+            max-width: 30rem;
+            padding: 3%;
+            border-radius: 10px;
+            background-color: rgb(28, 23, 49);
+        }
         .works:nth-child(2) {
             /*background-image: url(img/fondo\ de\ programacion.jpg);*/
             color: white;
+            margin: 5% auto 5% auto;
             max-width: 30rem;
-            margin: 5% auto 0 auto;
             padding: 3%;
             border-radius: 10px;
             background-color: rgb(28, 23, 49);
